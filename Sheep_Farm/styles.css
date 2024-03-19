@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/image/1111.jpg'); /* เปลี่ยนชื่อไฟล์รูปภาพตามที่คุณต้องการ */
+    background-size: cover; /* ขนาดพื้นหลังเท่ากับขนาดของหน้าจอ */
+    background-repeat: no-repeat; /* ไม่ให้ภาพพื้นหลังทำซ้ำ */
+    background-position: center; /* จัดตำแหน่งของภาพพื้นหลังให้อยู่ตรงกลาง */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #7e450f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #151615;
+  }
+  
+  #notification {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(214, 25, 25);
+    display: none;
+  }
+  
+  #animalList {
+    margin-top: 20px;
+  }
+  
+  .animal {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .animal img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
